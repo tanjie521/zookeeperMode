@@ -5,8 +5,7 @@ import org.apache.zookeeper.*;
 import java.io.IOException;
 
 public class DistributeServer {
-    private static String connectString =
-            "192.168.188.133:2181";
+    private static String connectString = "192.168.188.133:2181";
     private static int sessionTimeout = 2000;
     private ZooKeeper zk = null;
     private String parentNode = "/servers";
